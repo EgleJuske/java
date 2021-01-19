@@ -2,7 +2,6 @@ public class Triangles {
 
     public static void main(String[] args) {
 
-
         int[][] triangles = {{3, 4, 5}, {2, 10, 8}, {5, 6, 5}, {5, 5, 5}};
 
         for (int[] a : triangles) {
