@@ -13,7 +13,7 @@ public class SortArray {
                 }
             }
 
-        // uzfiksuojame laikinai reiksme kuria
+        // uzfiksuojame laikinai reiksme ir ja sukeiciame vietomis su rasta max reiksme
         int temp = a[i];
         a[i] = max;
         a[maxId] = temp;
