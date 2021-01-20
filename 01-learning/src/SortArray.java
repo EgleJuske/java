@@ -3,9 +3,12 @@ public class SortArray {
 
         int[] a = {-10, 0, 2, 9, -5};
 
+        //ciklas eina per kiekviena masyvo reiksme ir kiekviena karta uzfiksuoja max reiksme ir jos id
         for (int i = 0; i < a.length; i++) {
             int max = a[i];
             int maxId = i;
+
+            //ciklas prasideda nuo vienu indeksu didesnes reiksmes ir tikrina ar ji didesne nei buvo nustatyta
             for (int j = i + 1; j < a.length; j++) {
                 if (a[j] > max) {
                     max = a[j];
@@ -13,7 +16,7 @@ public class SortArray {
                 }
             }
 
-        // uzfiksuojame laikinai reiksme ir ja sukeiciame vietomis su rasta max reiksme
+        // uzfiksuojame reiksme ir ja sukeiciame vietomis su rasta max reiksme
         int temp = a[i];
         a[i] = max;
         a[maxId] = temp;
