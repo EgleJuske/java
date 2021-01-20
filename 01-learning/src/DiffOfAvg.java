@@ -8,14 +8,14 @@ public class DiffOfAvg {
         for (int i : a) {
             sumA += i;
         }
-        double avgA = sumA / (double)a.length;
+        double avgA = (double)sumA / a.length;
 
         int sumB = 0;
         for (int i : b) {
             sumB += i;
         }
 
-        double avgB = sumB / (double)b.length;
+        double avgB = (double)sumB / b.length;
 
         double diff = avgA - avgB;
 
