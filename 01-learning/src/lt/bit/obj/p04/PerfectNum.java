@@ -1,3 +1,5 @@
+package lt.bit.obj.p04;
+
 public class PerfectNum {
     public static void main(String[] args) {
 

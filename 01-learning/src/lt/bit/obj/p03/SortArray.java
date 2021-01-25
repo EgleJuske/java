@@ -1,3 +1,5 @@
+package lt.bit.obj.p03;
+
 public class SortArray {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package lt.bit.obj.p03;
+
 public class SumOfHundred {
     public static void main(String[] args) {
         int sum = 0;
